@@ -11,7 +11,8 @@ from zoneinfo import ZoneInfo
 # ==========================
 
 # ⚠️ MET TON TOKEN ICI ⚠️
-TOKEN = "MTQ0MzU2MTcyMTYyNDAwMjczMg.GyhYuJ._Tz2r1vG0deSI61fz-gkfcaSR_bRMGaxNFGw-c"
+import os
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 # IDs de salons
 BOOST_VINTED_CHANNEL_ID = 1443544605122625608   # #boost-vinted
